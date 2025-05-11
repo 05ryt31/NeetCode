@@ -19,6 +19,7 @@ class Solution:
             l, r = l + 1, r - 1
         return True
 
+# ordはASCIIの数字を表す
     def alphaNum(self, c):
         return (ord('A') <= ord(c) <= ord('Z') or 
                 ord('a') <= ord(c) <= ord('z') or 
